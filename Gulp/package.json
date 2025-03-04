@@ -1,0 +1,24 @@
+{
+  "name": "task-runners-gulp",
+  "version": "1.0.0",
+  "description": "This project describes how to use task runners in node js",
+  "homepage": "https://github.com/prathameshcode360/Task-Runners-#readme",
+  "bugs": {
+    "url": "https://github.com/prathameshcode360/Task-Runners-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathameshcode360/Task-Runners-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-imagemin": "^9.1.0"
+  }
+}
