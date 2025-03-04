@@ -8,9 +8,25 @@ module.exports = function (grunt) {
         },
       },
     },
+    cssmin: {
+      target: {
+        files: [
+          {
+            expand: true,
+            cwd: "src/css",
+            src: ["*.css", "!*.min.css"],
+            dest: "dest/css",
+            ext: ".min.css",
+          },
+        ],
+      },
+    },
   });
-  //   load plugins
+
+  // Load plugins
   grunt.loadNpmTasks("grunt-contrib-uglify");
-  // register tasks
-  grunt.registerTask("default", ["uglify"]);
+  grunt.loadNpmTasks("grunt-contrib-cssmin");
+
+  // Register tasks
+  grunt.registerTask("default", ["uglify", "cssmin"]);
 };
