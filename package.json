@@ -1,0 +1,27 @@
+{
+  "name": "task-runners-",
+  "version": "1.0.0",
+  "description": "This project describes how to use task runners in node js",
+  "homepage": "https://github.com/prathameshcode360/Task-Runners-#readme",
+  "bugs": {
+    "url": "https://github.com/prathameshcode360/Task-Runners-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathameshcode360/Task-Runners-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "grunt": "^1.6.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-uglify": "^5.2.2"
+  }
+}
